@@ -58,3 +58,10 @@ function editar(index) {
         exibirDados();
     }
 }
+
+function excluir(index) {
+    if (confirm('Tem certeza que deseja excluir este cadastro?')) {
+        dados.splice(index, 1);
+        exibirDados();
+    }
+}
