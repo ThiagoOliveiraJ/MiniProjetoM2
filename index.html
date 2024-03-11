@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Gerenciador de Cadastros</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="popup" id="popup">
+        
+    </div>
+    <section class="section-cadastro sec">
+        <main class="conteudo-principal">
+            <form action="" class="formulario" id="form">
+                <h1 class="titulo">Gerenciador de Cadastros</h1>
+                <hr class="linha">
+                <div class="label-field">
+                    <label for="nome" class="label">Nome</label>
+                </div>
+                <div class="grupo">
+                    <input type="text" id="nome">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="label-field">
+                    <label for="email" class="label">Email</label>
+                </div>
+                <div class="grupo">
+                    <input type="email" id="email">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <button class="btn">Cadastrar</button>
+            </form>
+            <article>
+                <img class="img" src="img/office-management-animate.svg" alt="">
+            </article>
+        </main>
+    </section>
+    <section class="section-tabela sec">
+        <table class="tabela" id="tabela">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Opções</th>
+                </tr>
+                <tbody>
+
+                </tbody>
+            </thead>
+        </table>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
