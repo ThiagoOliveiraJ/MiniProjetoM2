@@ -48,3 +48,13 @@ const sectionTabela = document.querySelector('.section-tabela');
 
 
 
+function editar(index) {
+    const pessoa = dados[index];
+    const novoNome = prompt('Digite o novo nome:', pessoa.nome);
+    const novoEmail = prompt('Digite o novo email:', pessoa.email);
+    if (novoNome !== null && novoEmail !== null) {
+        pessoa.nome = novoNome;
+        pessoa.email = novoEmail;
+        exibirDados();
+    }
+}
